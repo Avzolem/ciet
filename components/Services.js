@@ -16,7 +16,7 @@ const services = [
 	{
 		id: 1,
 		name: "Hybrida",
-		href: "#",
+		href: "https://hybrida.uach.mx",
 		imageSrc: "/images/products/imagen-hybrida.png",
 		logoSrc: "/images/products/logo-hybrida.png",
 		imageAlt: "Logo Campus Seguro App.",
@@ -33,7 +33,7 @@ const services = [
 	{
 		id: 3,
 		name: "Train the teachers",
-		href: "#",
+		href: "https://teachers-xi.vercel.app/",
 		imageSrc: "/images/products/imagen-train.png",
 		logoSrc: "/images/products/logo-train.png",
 		imageAlt:
@@ -42,7 +42,7 @@ const services = [
 	{
 		id: 4,
 		name: "Hybrida",
-		href: "#",
+		href: "https://hybrida.uach.mx",
 		imageSrc: "/images/products/imagen-hybrida.png",
 		logoSrc: "/images/products/logo-hybrida.png",
 		imageAlt: "Hybrida.",
