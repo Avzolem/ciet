@@ -23,10 +23,10 @@ const products = [
 	},
 	{
 		id: 2,
-		name: "Eduhackers",
+		name: "Campus Seguro",
 		href: "#",
-		imageSrc: "/images/products/imagen-eduhackers.png",
-		logoSrc: "/images/products/logo-eduhackers.png",
+		imageSrc: "/images/products/campus-seguro-imagen.png",
+		logoSrc: "/images/products/campus-seguro-logo-blanco.png",
 		imageAlt:
 			"Olive drab green insulated bottle with flared screw lid and flat top.",
 	},
@@ -41,10 +41,10 @@ const products = [
 	},
 	{
 		id: 4,
-		name: "Hybrida",
-		href: "https://hybrida.uach.mx",
-		imageSrc: "/images/products/imagen-hybrida.png",
-		logoSrc: "/images/products/logo-hybrida.png",
+		name: "iCrea",
+		href: "https://icm.gob.mx",
+		imageSrc: "/images/products/i-crea.png",
+		logoSrc: "/images/products/icrea-logo-blanco.png",
 		imageAlt: "Hybrida.",
 	},
 
@@ -56,7 +56,7 @@ export default function Example() {
 		<div className="bg-white">
 			<div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
 				<h2 className="text-black text-5xl pb-10 text-center font-semibold">
-					Nuestros productos
+					Productos destacados
 				</h2>
 
 				<div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
