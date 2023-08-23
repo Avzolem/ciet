@@ -23,11 +23,7 @@ export default function Example() {
 					<div className="flex lg:flex-1">
 						<a href="#" className="-m-1.5 p-1.5">
 							<span className="sr-only">Your Company</span>
-							<img
-								className="h-8 w-auto"
-								src="/images/logo-ciet-blanco.png"
-								alt=""
-							/>
+							<img className="h-8 w-auto" src="/images/+uach.png" alt="" />
 						</a>
 					</div>
 					<div className="flex lg:hidden">
@@ -65,11 +61,7 @@ export default function Example() {
 						<div className="flex items-center justify-between">
 							<a href="#" className="-m-1.5 p-1.5">
 								<span className="sr-only">Your Company</span>
-								<img
-									className="h-8 w-auto"
-									src="https://tailwindui.com/img/logos/mark.svg?color=purple&shade=500"
-									alt=""
-								/>
+								<img className="h-8 w-auto" src="+uach.png" alt="+ uach" />
 							</a>
 							<button
 								type="button"
