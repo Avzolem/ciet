@@ -74,9 +74,7 @@ export default function Example() {
 									className="absolute w-44 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 group-hover:opacity-75"
 								/>
 							</div>
-							<h3 className="mt-4 text-lg font-semibold text-gray-700">
-								{product.name}
-							</h3>
+							<h3 className="mt-4 text-lg font-semibold text-gray-700"></h3>
 							<p className="mt-1 text-lg font-medium text-gray-900"></p>
 						</a>
 					))}
