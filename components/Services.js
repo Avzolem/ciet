@@ -214,7 +214,7 @@ export default function Example() {
 			<h2 className="text-black text-5xl pb-10 text-center font-semibold">
 				Nuestros servicios
 			</h2>
-			<div className="flex justify-center mt-4 space-x-4 pb-10">
+			<div className="flex justify-center mt-4 space-x-4 pb-10 px-3">
 				<button
 					onClick={handleButton1Click}
 					className={`px-4 py-2 text-black text-xl rounded hover:bg-purple-50 focus:bg-purple-50 ${
@@ -230,7 +230,7 @@ export default function Example() {
 					Formación de talento innovador
 				</button>
 			</div>
-			<div className="divide-y divide-gray-200 overflow-hidden rounded-lg bg-gray-200 shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0">
+			<div className="divide-y divide-gray-200 overflow-hidden rounded-lg md:px-10 bg-white shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0">
 				{selectedInfo.map((info, actionIdx) => (
 					<div
 						key={actionIdx}
