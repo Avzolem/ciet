@@ -33,8 +33,8 @@ const products = [
 		id: 3,
 		name: "Consejo Universitario",
 		href: "https://campusseguro.uach.mx",
-		imageSrc: "/images/products/consejo-universitario3.png",
-		logoSrc: "/images/products/consejo-universitario-logo-.png",
+		imageSrc: "/images/products/consejo-universitario-imagen.png",
+		logoSrc: "/images/products/consejo-universitario-logo.png",
 		imageAlt: "Campus Seguro.",
 	},
 	{
@@ -42,7 +42,7 @@ const products = [
 		name: "Gestor de Oficios",
 		href: "https://campusseguro.uach.mx",
 		imageSrc: "/images/products/gestor-de-oficios-digitales.png",
-		logoSrc: "/images/products/gestor-oficios-bold.png",
+		logoSrc: "/images/products/gestor-oficios-logo.png",
 		imageAlt: "Campus Seguro.",
 	},
 
