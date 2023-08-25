@@ -29,23 +29,15 @@ const footerNavigation = {
 export default function Footer() {
 	return (
 		<footer
-			className="mt-32 bg-purple-700 sm:mt-56"
+			className="mt-32 bg-purple-900 sm:mt-56"
 			aria-labelledby="footer-heading">
 			<h2 id="footer-heading" className="sr-only">
 				Footer
 			</h2>
 			<div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
 				<div className="xl:grid xl:grid-cols-3 xl:gap-8">
-					<img
-						className="h-12 my-2"
-						src="/images/logo-white.png"
-						alt="Company name"
-					/>
-					<img
-						className="h-12 my-4"
-						src="https://res.cloudinary.com/djlx5smmq/image/upload/v1683660688/logo-uach_xce9py.png"
-						alt=""
-					/>
+					<img className="h-12 my-2" src="/images/logo-white.png" alt="CIET" />
+					<img className="h-12 my-4" src="images/+uach.png" alt="+UACH" />
 
 					<div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
 						<div className="md:grid md:grid-cols-2 md:gap-8">
