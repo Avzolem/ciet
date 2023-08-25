@@ -270,10 +270,9 @@ const ContactPage = () => {
                             }}
                             errorMessage={errors.phone?.message}
                         />
-                        {/* EMPRESA */}
-                        <div className="flex-auto ">
-                            <TextArea
-                                minlength="3"
+                        <div className="w-full">
+                            {/* EMPRESA  */}
+                            <Input
                                 label="Empresa"
                                 name="empresa"
                                 type="text"
@@ -281,11 +280,12 @@ const ContactPage = () => {
                                     ...register("empresa", {
                                         required: {
                                             value: true,
-                                            message: "Este campo es requerido",
+                                            message:
+                                                "Nombre de empresa es requerido",
                                         },
                                     }),
                                 }}
-                                errorMessage={errors.message?.message}
+                                errorMessage={errors.email?.message}
                             />
                         </div>
                         {/* MENSAJE*/}

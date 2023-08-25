@@ -17,7 +17,7 @@ handler.use(async (req, res, next) => {
 handler.post(async (req, res) => {
     const { data } = req.body;
 
-    const { firstName, lastName, email, phone, message } = data;
+    const { firstName, lastName, email, phone, empresa, message } = data;
 
     try {
         //send data to google sheets
@@ -31,12 +31,8 @@ handler.post(async (req, res) => {
                     lastName,
                     email,
                     phone,
-                    category,
+                    empresa,
                     message,
-                    portafolio,
-                    motivos,
-                    comoteenteraste,
-                    alumno,
                 },
             ],
             submissionsSheetIndex
@@ -62,24 +58,17 @@ handler.post(async (req, res) => {
           </br>
           <p><strong>Telefono</strong>: ${phone}</p>
           </br>
-          <p><strong>Categoria de tu trabajo</strong>: ${category}</p>
+          <p><strong>Empresa</strong>: ${empresa}</p>
           </br>
           <p><strong>Mensaje</strong>: ${message}</p>
           </br>
-          <p><strong>Link al portfolio</strong>: ${portafolio}</p>
-          </br>
-          <p><strong>Motivos para participar</strong>: ${motivos}</p>
-          </br>
-          <p><strong>Como se entero</strong>: ${comoteenteraste}</p>
-          </br>
-          <p><strong>Es alumno de la uach</strong>: ${alumno}</p>
-          </br>
+    
         `;
 
         await transporter.sendMail({
             from: "hybrida@uach.mx", // sender address
             to: "hybrida@uach.mx", // list of receivers
-            subject: "Nuevo Registro Hybrida Uach ✔", // Subject line
+            subject: "Nuevo Registro Contacto CIET ✔", // Subject line
             html: template,
         });
 
