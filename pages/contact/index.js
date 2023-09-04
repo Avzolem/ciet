@@ -330,12 +330,10 @@ const ContactPage = () => {
 						{/* BOTON  */}
 						<div className="sm:col-span-2">
 							<div className="relative group">
-								<div
-									className="absolute -inset-1.5 bg-gradient-to-r from-pink-600 to bg-purple-600 rounded-lg blur
-                                r opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+								<div className=""></div>
 								<button
 									type="submit"
-									className="relative inline-flex w-full items-center justify-center rounded-sm border border-transparent bg-black px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-700 focus:ring-offset-2"
+									className="relative inline-flex w-full items-center justify-center rounded-sm border border-transparent bg-purple-500 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-700 focus:ring-offset-2"
 									disabled={submitLoading}>
 									{submitLoading ? (
 										<div>
