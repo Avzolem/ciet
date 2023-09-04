@@ -44,7 +44,7 @@ const PhoneInput = ({
 					type="text"
 					name={name}
 					id="phone-number"
-					className="focus:border-buttonbg focus:ring-buttonbg block w-full rounded-sm border-gray-300 py-1 pl-24 text-black sm:text-sm"
+					className="border border-gray-200 focus:border-buttonbg focus:ring-buttonbg block w-full rounded-sm  py-1 pl-24 text-black sm:text-sm"
 					placeholder={placeholder}
 					{...register}
 					{...rest}
