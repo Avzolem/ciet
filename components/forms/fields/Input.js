@@ -19,7 +19,7 @@ const Input = ({
 					type={type}
 					name={name}
 					id={name}
-					className="focus:ring-inputfocus focus:border-inputfocus block w-full py-1 rounded-sm border-gray-300 text-black shadow-sm sm:text-sm"
+					className="border border-gray-200 focus:ring-inputfocus focus:border-inputfocus block w-full py-1 rounded-sm text-black shadow-sm sm:text-sm"
 					placeholder={placeholder}
 					{...register}
 					{...rest}

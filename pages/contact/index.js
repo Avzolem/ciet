@@ -106,7 +106,7 @@ const ContactPage = () => {
 	};
 
 	return (
-		<div className="flex min-h-screen  bg-gradient-to-r from-white to-purple-200 py-16 px-4 sm:px-6 lg:px-8 lg:py-24">
+		<div className="flex min-h-screen  bg-gradient-to-r from-white to-white py-16 px-4 sm:px-6 lg:px-8 lg:py-24">
 			{/* PUNTITOS */}
 			<div className="relative mx-auto max-w-xl text-gray-300">
 				<svg
@@ -174,7 +174,7 @@ const ContactPage = () => {
 					/>
 				</svg>
 				<div className="text-center">
-					<h2 className="text-3xl font-bold tracking-tight text-gray-400 sm:text-4xl">
+					<h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
 						Centro de Innovacion y Emprendimiento Tecnologico
 					</h2>
 					<p className="mt-4 text-lg leading-6 text-gray-400">
