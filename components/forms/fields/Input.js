@@ -11,7 +11,7 @@ const Input = ({
 
 	return (
 		<div className={className}>
-			<label htmlFor={name} className="block text-sm font-medium text-white">
+			<label htmlFor={name} className="block text-sm font-medium text-gray-600">
 				{label}
 			</label>
 			<div className="mt-1">
