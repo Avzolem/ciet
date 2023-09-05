@@ -7,7 +7,7 @@ import Image from "next/image";
 const navigation = [
     { name: "Acerca de", href: "#" },
     { name: "Portafolio", href: "#" },
-    { name: "Contacto", href: "#" },
+    { name: "Contacto", href: "/contact" },
 ];
 
 export default function Example() {
