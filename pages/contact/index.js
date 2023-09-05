@@ -340,7 +340,7 @@ const ContactPage = () => {
 											<LoadingCircle />
 										</div>
 									) : (
-										"Enviar mi aplicacion."
+										"Enviar"
 									)}
 								</button>
 								<input type="hidden" name="_captcha" value="false"></input>
