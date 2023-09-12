@@ -67,7 +67,7 @@ handler.post(async (req, res) => {
 
         await transporter.sendMail({
             from: "hybrida@uach.mx", // sender address
-            to: "hybrida@uach.mx", // list of receivers
+            to: "ciet@uach.mx", // list of receivers
             subject: "Nuevo Registro Contacto CIET ✔", // Subject line
             html: template,
         });
